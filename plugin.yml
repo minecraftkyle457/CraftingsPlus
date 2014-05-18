@@ -1,0 +1,16 @@
+name: CraftingsPlus
+version: 1.0
+description: More Crafting Items
+author: minecraftkyle457 
+main: me.minecraftkyle457.Craftings.Plus.Main
+database: false 
+commands:
+  craftingsplus:
+    description: CraftingsPlus main command
+    aliases: [cp, craftings+, c+, cplus, crafting+]
+    permission: craftingplus.main
+    usage: /craftingsplus [version]
+permissions:
+  craftingsplus.main:
+    description: Craftings+Plus Main Command Permission
+    default: op
